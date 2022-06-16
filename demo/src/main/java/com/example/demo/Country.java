@@ -1,11 +1,11 @@
 package com.example.demo;
 
 public class  Country {
-    String names;
-    String flag;
-    String capitals;
-    String largestCity;
-    String neighbours;
+    private String names;
+    private String flag;
+    private String capitals;
+    private String largestCity;
+    private String neighbours;
 
     public Country(String names,  String capitals, String largestCity, String neighbours, String flag) {
         this.names = names;
